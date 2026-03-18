@@ -22,7 +22,7 @@ import AdminUsers from './pages/admin/AdminUsers';
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+      <BrowserRouter basename="/ecoaula">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
