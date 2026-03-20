@@ -18,6 +18,7 @@ import AdminCourses from './pages/admin/AdminCourses';
 import AdminCourseNew from './pages/admin/AdminCourseNew';
 import AdminCourseEdit from './pages/admin/AdminCourseEdit';
 import AdminUsers from './pages/admin/AdminUsers';
+import Catalog from './pages/Catalog';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/catalog" element={<Catalog />} />
           <Route path="/recovery" element={<Recovery />} />
 
           {/* Student Routes */}

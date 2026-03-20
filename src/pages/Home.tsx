@@ -75,7 +75,7 @@ export default function Home() {
                                 <ArrowRight className="group-hover:translate-x-2 transition-transform duration-300" />
                             </Link>
                             <Link
-                                to="/login"
+                                to="/catalog"
                                 className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-2 border-white/20 font-black py-4 px-10 rounded-2xl transition-all flex items-center justify-center text-lg backdrop-blur-md active:scale-95"
                             >
                                 Ver catálogo
